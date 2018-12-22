@@ -28,10 +28,7 @@ public class SeleniumCommands {
 		//IE
 		System.setProperty("webdriver.ie.driver", "E:\\Abhresh\\Installation_stuff\\ExeFiles\\IEDriverServer.exe");
 		WebDriver IE = new InternetExplorerDriver();
-		
-		//Safari
-		WebDriver safari = new SafariDriver();
-		
+			
 		//Close and Quit Browser
 		driver.close();// this will close the current active window of the current instance
 		driver.quit();// this will close all the windows in the current instance
@@ -45,7 +42,7 @@ public class SeleniumCommands {
 		driver.getClass(); // this is used to get the class name of the current Element
 		
 		//Navigation Commands
-		driver.navigate().to("URL");//Navigating to a perticular URL and it can be same as driver.get commands
+		driver.navigate().to("URL");//Navigating to a particular URL and it can be same as driver.get commands
 		driver.navigate().back();// to go to previous page
 		driver.navigate().forward();// to move to the next page
 		driver.navigate().refresh();// to refresh the page
