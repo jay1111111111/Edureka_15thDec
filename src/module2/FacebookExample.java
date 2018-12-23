@@ -43,7 +43,10 @@ public class FacebookExample {
 		Thread.sleep(5000);
 				
 		//Locate using CSS
-		driver.findElement(By.cssSelector("#identify_email")).sendKeys("Abhresh");
+		driver.findElement(By.cssSelector("#identify_email")).sendKeys("Abhresh");	
+		
+		//Using Xpath
+		driver.findElement(By.xpath("//*[@type = 'email']")).sendKeys("Abhresh");
 		
 	}
 
