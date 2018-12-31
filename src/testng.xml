@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+  <test name="Testing Annotions">
+    <classes>
+      <class name="module6.Annotations"/>
+      <class name="module6.Example1"></class>
+    </classes>
+  </test>
+</suite>
