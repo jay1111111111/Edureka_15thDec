@@ -1,29 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="5" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="138" started-at="2018-12-30T05:33:26Z" finished-at="2018-12-30T05:33:27Z">
+  <suite name="Default suite" duration-ms="18578" started-at="2019-01-04T17:48:11Z" finished-at="2019-01-04T17:48:30Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="138" started-at="2018-12-30T05:33:26Z" finished-at="2018-12-30T05:33:27Z">
-      <class name="module6.Prioritizing">
-        <test-method status="PASS" signature="Shifali()[pri:0, instance:module6.Prioritizing@74650e52]" name="Shifali" duration-ms="13" started-at="2018-12-30T05:33:26Z" finished-at="2018-12-30T05:33:26Z">
+    <test name="Default test" duration-ms="18578" started-at="2019-01-04T17:48:11Z" finished-at="2019-01-04T17:48:30Z">
+      <class name="module6.Example1">
+        <test-method status="PASS" signature="OpenAUT()[pri:0, instance:module6.Example1@4232c52b]" name="OpenAUT" is-config="true" duration-ms="10215" started-at="2019-01-04T17:48:11Z" finished-at="2019-01-04T17:48:22Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Shifali -->
-        <test-method status="PASS" signature="Nimy()[pri:1, instance:module6.Prioritizing@74650e52]" name="Nimy" duration-ms="3" started-at="2018-12-30T05:33:26Z" finished-at="2018-12-30T05:33:26Z">
+        </test-method> <!-- OpenAUT -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:module6.Example1@4232c52b]" name="Login" duration-ms="8344" started-at="2019-01-04T17:48:22Z" finished-at="2019-01-04T17:48:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Nimy -->
-        <test-method status="PASS" signature="Anu()[pri:4, instance:module6.Prioritizing@74650e52]" name="Anu" duration-ms="2" started-at="2018-12-30T05:33:26Z" finished-at="2018-12-30T05:33:26Z">
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="LogOut()[pri:0, instance:module6.Example1@4232c52b]" name="LogOut" is-config="true" duration-ms="5693" started-at="2019-01-04T17:48:30Z" finished-at="2019-01-04T17:48:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Anu -->
-        <test-method status="PASS" signature="Rosy()[pri:2, instance:module6.Prioritizing@74650e52]" name="Rosy" duration-ms="4" started-at="2018-12-30T05:33:27Z" depends-on-methods="module6.Prioritizing.Anu" finished-at="2018-12-30T05:33:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Rosy -->
-      </class> <!-- module6.Prioritizing -->
+        </test-method> <!-- LogOut -->
+      </class> <!-- module6.Example1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

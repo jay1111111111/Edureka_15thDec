@@ -9,18 +9,12 @@ import org.testng.annotations.Test;
 
 public class Example1 {
 
-	// Open Browser
-	// Open the URL
-	// Login to AUT
-	// Logout to AUT
-
 	WebDriver driver;
 
 	@BeforeTest
 	public void OpenAUT() {
 		System.setProperty("webdriver.chrome.driver", "E:\\Abhresh\\Installation_stuff\\ExeFiles\\chromedriver.exe");
 		driver = new ChromeDriver();
-
 		driver.get("http://newtours.demoaut.com/");
 	}
 
@@ -36,17 +30,15 @@ public class Example1 {
 		// Click on Sign in button
 		driver.findElement(By.name("login")).click();
 		Thread.sleep(3000);
-
 	}
 	
 	@AfterSuite
 	public void LogOut() throws InterruptedException {
 		// Click on Sign off
 		driver.findElement(By.linkText("SIGN-OFF")).click();
-
+	
 		Thread.sleep(3000);
-
+		
 		driver.close();
 	}
-
 }
