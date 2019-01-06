@@ -2,8 +2,10 @@
 <suite name="Suite">
   <test name="Testing Annotions">
     <classes>
-      <class name="module6.Annotations"/>
+      <class name="module6.Annotations"></class>
       <class name="module6.Example1"></class>
+      <class name="module6.Dependency"></class>
+      
     </classes>
   </test>
 </suite>

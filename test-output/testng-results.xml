@@ -1,25 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="18578" started-at="2019-01-04T17:48:11Z" finished-at="2019-01-04T17:48:30Z">
+  <suite name="Suite" duration-ms="47632" started-at="2019-01-05T04:06:41Z" finished-at="2019-01-05T04:07:29Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="18578" started-at="2019-01-04T17:48:11Z" finished-at="2019-01-04T17:48:30Z">
-      <class name="module6.Example1">
-        <test-method status="PASS" signature="OpenAUT()[pri:0, instance:module6.Example1@4232c52b]" name="OpenAUT" is-config="true" duration-ms="10215" started-at="2019-01-04T17:48:11Z" finished-at="2019-01-04T17:48:22Z">
+    <test name="Testing Annotions" duration-ms="47632" started-at="2019-01-05T04:06:41Z" finished-at="2019-01-05T04:07:29Z">
+      <class name="module6.Dependency">
+        <test-method status="PASS" signature="OpenApp()[pri:0, instance:module6.Dependency@1563da5]" name="OpenApp" duration-ms="14947" started-at="2019-01-05T04:06:58Z" finished-at="2019-01-05T04:07:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- OpenAUT -->
-        <test-method status="PASS" signature="Login()[pri:0, instance:module6.Example1@4232c52b]" name="Login" duration-ms="8344" started-at="2019-01-04T17:48:22Z" finished-at="2019-01-04T17:48:30Z">
+        </test-method> <!-- OpenApp -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:module6.Dependency@1563da5]" name="Login" duration-ms="8303" started-at="2019-01-05T04:07:13Z" depends-on-methods="module6.Dependency.OpenApp" finished-at="2019-01-05T04:07:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="LogOut()[pri:0, instance:module6.Example1@4232c52b]" name="LogOut" is-config="true" duration-ms="5693" started-at="2019-01-04T17:48:30Z" finished-at="2019-01-04T17:48:36Z">
+        <test-method status="PASS" signature="Logout()[pri:0, instance:module6.Dependency@1563da5]" name="Logout" duration-ms="7164" started-at="2019-01-05T04:07:21Z" depends-on-methods="module6.Dependency.Login" finished-at="2019-01-05T04:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- module6.Dependency -->
+      <class name="module6.Annotations">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:module6.Annotations@528931cf]" name="beforeSuite" is-config="true" duration-ms="28" started-at="2019-01-05T04:06:41Z" finished-at="2019-01-05T04:06:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:module6.Annotations@528931cf]" name="beforeTest" is-config="true" duration-ms="2" started-at="2019-01-05T04:06:41Z" finished-at="2019-01-05T04:06:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="OpenAUT()[pri:0, instance:module6.Example1@ea1a8d5]" name="OpenAUT" is-config="true" duration-ms="7912" started-at="2019-01-05T04:06:41Z" finished-at="2019-01-05T04:06:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenAUT -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:module6.Annotations@528931cf]" name="beforeClass" is-config="true" duration-ms="1" started-at="2019-01-05T04:06:49Z" finished-at="2019-01-05T04:06:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:module6.Annotations@528931cf]" name="beforeMethod" is-config="true" duration-ms="5" started-at="2019-01-05T04:06:49Z" finished-at="2019-01-05T04:06:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Test()[pri:0, instance:module6.Annotations@528931cf]" name="Test" duration-ms="11" started-at="2019-01-05T04:06:49Z" finished-at="2019-01-05T04:06:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:module6.Annotations@528931cf]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-01-05T04:06:49Z" finished-at="2019-01-05T04:06:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:module6.Annotations@528931cf]" name="afterClass" is-config="true" duration-ms="1" started-at="2019-01-05T04:06:49Z" finished-at="2019-01-05T04:06:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:module6.Annotations@528931cf]" name="afterTest" is-config="true" duration-ms="2" started-at="2019-01-05T04:07:29Z" finished-at="2019-01-05T04:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:module6.Annotations@528931cf]" name="afterSuite" is-config="true" duration-ms="1" started-at="2019-01-05T04:07:29Z" finished-at="2019-01-05T04:07:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+        <test-method status="PASS" signature="LogOut()[pri:0, instance:module6.Example1@ea1a8d5]" name="LogOut" is-config="true" duration-ms="5527" started-at="2019-01-05T04:07:29Z" finished-at="2019-01-05T04:07:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LogOut -->
+      </class> <!-- module6.Annotations -->
+      <class name="module6.Example1">
+        <test-method status="PASS" signature="Login()[pri:0, instance:module6.Example1@ea1a8d5]" name="Login" duration-ms="9191" started-at="2019-01-05T04:06:49Z" finished-at="2019-01-05T04:06:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
       </class> <!-- module6.Example1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Testing Annotions -->
+  </suite> <!-- Suite -->
 </testng-results>

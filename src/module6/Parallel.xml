@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Parameterization" parallel="tests">
+
+	<test name="Chrome">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="module6.Example2"></class>
+		</classes>
+	</test>
+
+	<test name="Chrome1">
+		<parameter name="browser" value="Chrome"></parameter>
+		<classes>
+			<class name="module6.Example2"></class>
+		</classes>
+	</test>
+
+</suite>
