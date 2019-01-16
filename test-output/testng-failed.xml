@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [MultiBrowserTesting]">
-  <test thread-count="5" name="IE(failed)">
-    <parameter name="browser" value="IE"/>
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="module6.Example2">
+      <class name="module9.DDT">
         <methods>
-          <include name="openBrowser"/>
-          <include name="login_TestCase"/>
-          <include name="closeBrowser"/>
+          <include name="CloseApp"/>
+          <include name="FormFillup"/>
+          <include name="OpenApp"/>
         </methods>
-      </class> <!-- module6.Example2 -->
+      </class> <!-- module9.DDT -->
     </classes>
-  </test> <!-- IE(failed) -->
-</suite> <!-- Failed suite [MultiBrowserTesting] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

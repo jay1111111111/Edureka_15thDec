@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="DataDrivenTest">
+  <test name="My Blog Form Fill Test">
+    <classes>
+      <class name="module9.DDT1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
