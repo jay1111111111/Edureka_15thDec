@@ -1,231 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="DataDrivenTest" duration-ms="66853" started-at="2019-01-12T04:05:31Z" finished-at="2019-01-12T04:06:37Z">
+  <suite name="Default suite" duration-ms="22501" started-at="2019-01-16T08:16:54Z" finished-at="2019-01-16T08:17:16Z">
     <groups>
     </groups>
-    <test name="My Blog Form Fill Test" duration-ms="66853" started-at="2019-01-12T04:05:31Z" finished-at="2019-01-12T04:06:37Z">
-      <class name="module9.DDT1">
-        <test-method status="PASS" signature="OpenApp()[pri:0, instance:module9.DDT1@52feb982]" name="OpenApp" is-config="true" duration-ms="9461" started-at="2019-01-12T04:05:31Z" finished-at="2019-01-12T04:05:40Z">
+    <test name="Default test" duration-ms="22501" started-at="2019-01-16T08:16:54Z" finished-at="2019-01-16T08:17:16Z">
+      <class name="module7.GridExampleTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:module7.GridExampleTest@371a67ec]" name="setUp" is-config="true" duration-ms="15323" started-at="2019-01-16T08:16:54Z" finished-at="2019-01-16T08:17:09Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- OpenApp -->
-        <test-method status="PASS" signature="FillForm(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.DDT1@52feb982]" name="FillForm" duration-ms="5866" started-at="2019-01-12T04:05:41Z" data-provider="TD" finished-at="2019-01-12T04:05:46Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Amit]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Jain]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Gujrat]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testGooglePageTitle()[pri:0, instance:module7.GridExampleTest@371a67ec]" name="testGooglePageTitle" duration-ms="2974" started-at="2019-01-16T08:17:09Z" finished-at="2019-01-16T08:17:12Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FillForm -->
-        <test-method status="PASS" signature="FillForm(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.DDT1@52feb982]" name="FillForm" duration-ms="5531" started-at="2019-01-12T04:05:46Z" data-provider="TD" finished-at="2019-01-12T04:05:52Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Sam]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Joseph]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Goa]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- testGooglePageTitle -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:module7.GridExampleTest@371a67ec]" name="closeBrowser" is-config="true" duration-ms="4109" started-at="2019-01-16T08:17:12Z" finished-at="2019-01-16T08:17:16Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- FillForm -->
-        <test-method status="PASS" signature="FillForm(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.DDT1@52feb982]" name="FillForm" duration-ms="5560" started-at="2019-01-12T04:05:52Z" data-provider="TD" finished-at="2019-01-12T04:05:58Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Sumit]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Pandey]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Delhi]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FillForm -->
-        <test-method status="PASS" signature="FillForm(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.DDT1@52feb982]" name="FillForm" duration-ms="5584" started-at="2019-01-12T04:05:58Z" data-provider="TD" finished-at="2019-01-12T04:06:03Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[James]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Desuza]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Mumbai]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FillForm -->
-        <test-method status="PASS" signature="FillForm(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.DDT1@52feb982]" name="FillForm" duration-ms="5508" started-at="2019-01-12T04:06:03Z" data-provider="TD" finished-at="2019-01-12T04:06:09Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Rohit]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Joshi]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Pune]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FillForm -->
-        <test-method status="PASS" signature="FillForm(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.DDT1@52feb982]" name="FillForm" duration-ms="5475" started-at="2019-01-12T04:06:09Z" data-provider="TD" finished-at="2019-01-12T04:06:14Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Jain]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Amit]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Gujrat]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FillForm -->
-        <test-method status="PASS" signature="FillForm(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.DDT1@52feb982]" name="FillForm" duration-ms="5485" started-at="2019-01-12T04:06:14Z" data-provider="TD" finished-at="2019-01-12T04:06:20Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Joseph]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Sam]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Goa]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FillForm -->
-        <test-method status="PASS" signature="FillForm(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.DDT1@52feb982]" name="FillForm" duration-ms="5689" started-at="2019-01-12T04:06:20Z" data-provider="TD" finished-at="2019-01-12T04:06:25Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Pandey]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Sumit]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Delhi]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FillForm -->
-        <test-method status="PASS" signature="FillForm(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.DDT1@52feb982]" name="FillForm" duration-ms="5576" started-at="2019-01-12T04:06:25Z" data-provider="TD" finished-at="2019-01-12T04:06:31Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Desuza]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[James]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Mumbai]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FillForm -->
-        <test-method status="PASS" signature="FillForm(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:module9.DDT1@52feb982]" name="FillForm" duration-ms="5519" started-at="2019-01-12T04:06:31Z" data-provider="TD" finished-at="2019-01-12T04:06:36Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Joshi]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Rohit]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Pune]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- FillForm -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:module9.DDT1@52feb982]" name="CloseBrowser" is-config="true" duration-ms="1077" started-at="2019-01-12T04:06:36Z" finished-at="2019-01-12T04:06:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CloseBrowser -->
-      </class> <!-- module9.DDT1 -->
-    </test> <!-- My Blog Form Fill Test -->
-  </suite> <!-- DataDrivenTest -->
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- module7.GridExampleTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
