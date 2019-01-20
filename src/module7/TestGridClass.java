@@ -25,7 +25,7 @@ public class TestGridClass {
 
 		if (browser.equalsIgnoreCase("firefox")) {
 			System.out.println("Executing on FireFox");
-			String Node = "http://localhost:5566/wd/hub";
+			String Node = "http://192.168.137.1:5555/wd/hub";
 			DesiredCapabilities cap = DesiredCapabilities.firefox();
 			
 			cap.setBrowserName("firefox");
@@ -45,7 +45,7 @@ public class TestGridClass {
 			System.setProperty("webdriver.chrome.driver", "D:\\Training\\Installation stuff\\Exe Files\\chromedriver.exe");
 			DesiredCapabilities cap = DesiredCapabilities.chrome();
 			cap.setBrowserName("chrome");
-			String Node = "http://localhost:5566/wd/hub";
+			String Node = "http://192.168.137.1:5555/wd/hub";
 			driver = new RemoteWebDriver(new URL(Node), cap);
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
@@ -56,7 +56,7 @@ public class TestGridClass {
 			System.out.println(" Executing on IE");
 			DesiredCapabilities cap = DesiredCapabilities.chrome();
 			cap.setBrowserName("ie");
-			String Node = "http://localhost:5566/wd/hub";
+			String Node = "http://192.168.137.1:5555/wd/hub";
 			driver = new RemoteWebDriver(new URL(Node), cap);
 			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 

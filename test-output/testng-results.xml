@@ -1,25 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22501" started-at="2019-01-16T08:16:54Z" finished-at="2019-01-16T08:17:16Z">
+  <suite name="Suite" duration-ms="64348" started-at="2019-01-19T05:05:27Z" finished-at="2019-01-19T05:06:31Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22501" started-at="2019-01-16T08:16:54Z" finished-at="2019-01-16T08:17:16Z">
-      <class name="module7.GridExampleTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:module7.GridExampleTest@371a67ec]" name="setUp" is-config="true" duration-ms="15323" started-at="2019-01-16T08:16:54Z" finished-at="2019-01-16T08:17:09Z">
+    <test name="Chrome1Test" duration-ms="62898" started-at="2019-01-19T05:05:27Z" finished-at="2019-01-19T05:06:30Z">
+      <class name="module7.TestGridClass">
+        <test-method status="PASS" signature="launchbrowser(java.lang.String)[pri:0, instance:module7.TestGridClass@77f99a05]" name="launchbrowser" is-config="true" duration-ms="26024" started-at="2019-01-19T05:05:27Z" finished-at="2019-01-19T05:05:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testGooglePageTitle()[pri:0, instance:module7.GridExampleTest@371a67ec]" name="testGooglePageTitle" duration-ms="2974" started-at="2019-01-16T08:17:09Z" finished-at="2019-01-16T08:17:12Z">
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="calculatepercent()[pri:0, instance:module7.TestGridClass@77f99a05]" name="calculatepercent" duration-ms="36832" started-at="2019-01-19T05:05:53Z" finished-at="2019-01-19T05:06:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testGooglePageTitle -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:module7.GridExampleTest@371a67ec]" name="closeBrowser" is-config="true" duration-ms="4109" started-at="2019-01-16T08:17:12Z" finished-at="2019-01-16T08:17:16Z">
+        </test-method> <!-- calculatepercent -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:module7.TestGridClass@77f99a05]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2019-01-19T05:06:30Z" finished-at="2019-01-19T05:06:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- module7.GridExampleTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- module7.TestGridClass -->
+    </test> <!-- Chrome1Test -->
+    <test name="Chrome2Test" duration-ms="64348" started-at="2019-01-19T05:05:27Z" finished-at="2019-01-19T05:06:31Z">
+      <class name="module7.TestGridClass">
+        <test-method status="PASS" signature="launchbrowser(java.lang.String)[pri:0, instance:module7.TestGridClass@cb0ed20]" name="launchbrowser" is-config="true" duration-ms="26177" started-at="2019-01-19T05:05:27Z" finished-at="2019-01-19T05:05:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method status="PASS" signature="calculatepercent()[pri:0, instance:module7.TestGridClass@cb0ed20]" name="calculatepercent" duration-ms="38157" started-at="2019-01-19T05:05:53Z" finished-at="2019-01-19T05:06:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- calculatepercent -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:module7.TestGridClass@cb0ed20]" name="closeBrowser" is-config="true" duration-ms="0" started-at="2019-01-19T05:06:31Z" finished-at="2019-01-19T05:06:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- module7.TestGridClass -->
+    </test> <!-- Chrome2Test -->
+  </suite> <!-- Suite -->
 </testng-results>
